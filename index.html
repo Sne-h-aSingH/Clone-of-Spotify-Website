@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="icon" href="logo.png"> 
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Agbalumo&family=Montserrat:ital,wght@0,200;0,400;0,500;0,700;1,600&display=swap" rel="stylesheet">
+    <title>spotify-web player:music for everyone</title>
+</head>
+<body>
+    <div class="main">
+        <div class="sidebar">
+            <div class="nav">
+                <div class="nava">
+                    <i class="fa fa-home" aria-hidden="true"></i>
+                    <a href="#">Home</a>
+                </div> 
+                <div class="nava">
+                    <i class="fa fa-search" aria-hidden="true"></i>
+                    <a href="#">Search</a>
+                </div>
+                
+            
+            </div>
+            <div class="library">
+                <div class="option">
+                    <div class="lab nava"> 
+                        <img src="library_icon.png">
+                        <a href="q">Your library</a>
+                    </div>
+                    <div class="icon">
+                        <i class="fa-solid fa-plus"></i>
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </div>
+                </div>
+                    <div class="lib-box">
+                        <div class="box">
+                            <div class="p1">Create your first playlist</div>
+                            <div class="p2">It's easy, we'll help you</div>
+                            <button  class="badges">Create playlist </button>
+                        </div>
+                        <div class="box">
+                            <div class="p1">Let's find some podcast to follow</div>
+                            <div class="p2">We'll updated on new episode</div>
+                            <button  class="badges">Browse podcast </button>
+                        </div>
+                    </div>
+                        
+
+                
+            </div>
+               
+        </div>
+        <div class="maincontent">
+            <div class="image">
+                <div class="ima">
+                    <img src="backward_icon.png">
+                    <img src="forward_icon.png" class="hide">
+                </div>
+                <div class="but">
+                    <button  class="badges hide">Explore Premium</button> 
+                    <button  class="badges dark">
+                       <i class="fa fa-arrow-circle-down" aria-hidden="true"></i>Install App 
+                    </button>
+                    <i class="fa-solid fa-user"></i>
+                   
+                </div>
+                
+                
+            </div>
+            <div class="cards">
+                <h2>Recently Played</h2> 
+                <div class="card-container">
+                   <div class="card"> 
+                       <img src="card1img.jpeg" class="c1"></img>
+                       <p class="card-title">Top 50-Global</p>
+                       <p class="info"> Your daily update of the most played tracks...</p>
+                   </div>
+                </div>
+            </div>    
+                
+            <h2>Trendy now near you</h2> 
+         <div class="cards-container"> 
+               <div class="card"> 
+                    <img src="card2img.jpeg" class="c1"></img>
+                    <p class="card-title">Top l50-Globa</p>
+                    <p class="info"> Your daily update of the most played tracks...</p>
+               </div>
+               <div class="card"> 
+                    <img src="card3img.jpeg" class="c1"></img>
+                    <p class="card-title">Top 50-Global</p>
+                    <p class="info"> Your daily update of the most played tracks...</p>
+               </div>
+               <div class="card"> 
+                   <img src="card4img.jpeg" class="c1"></img>
+                  <p class="card-title">Top 50-Global</p>
+                  <p class="info"> Your daily update of the most played tracks...</p>
+               </div>
+         </div>
+                        
+       
+                 <h2>Features Charts</h2> 
+                 <div class="card-container">
+                      <div class="card"> 
+                          <img src="card5img.jpeg" class="c1"></img>
+                          <p class="card-title">Top songs Global</p>
+                          <p class="info"> Your daily update of the most played tracks...</p>
+                      </div>
+                      <div class="card"> 
+                          <img src="card6img.jpeg" class="c1"></img>
+                          <p class="card-title">Top songs-India</p>
+                          <p class="info"> Your daily update of the most played tracks...</p>
+                      </div>
+                      <div class="card"> 
+                           <img src="card1img.jpeg" class="c1"></img>
+                           <p class="card-title">Top 50-Global</p>
+                           <p class="info"> Your daily update of the most played tracks...</p>
+                      </div>
+                      <div class="footer">
+                          <div class="line"></div>
+                      </div>
+                 </div>
+     </div>         
+      
+     <div class="musicplayer">
+        <div class="aumb">
+           <img src="R (1).jpeg" class="aumb1">
+           <h6 class="p1">Ankhyian Milao</h6>
+           <br><br><br><br>
+           <h6 class="p2">Udit Narayna,Alka Yalkani</h6>
+           <i class="fa fa-heart heart icon " id="myIcon" aria-hidden="true" ></i>
+           <i class="fa fa-picture-o" aria-hidden="true"></i>
+          
+        </div>
+        <div class="player">        
+            <div class="play">
+                <i class="fa fa-random ions" aria-hidden="true"></i>
+                <i class="fa fa-step-backward ions" aria-hidden="true"></i>
+                <div class="icon-container" onclick="playMusic()">
+                    <i class="fa fa-play-circle ions" aria-hidden="true"></i>
+                </div>
+                <i class="fa fa-step-forward ions" aria-hidden="true"></i>
+                <i class="fa fa-refresh ions" aria-hidden="true"></i>
+            </div>
+              <div class="progress">
+                  <span class="stat">00:00</span>
+                  <input  type="range" min="0" max="100" step="1" class="pro1">
+                  <span class="total">03:00</span>
+              </div>
+        </div>  
+        
+                    
+                    
+
+                     
+               </div>
+                
+    <script src="app.js"></script>            
+            
+             
+    </div>   
+   </body>
+   </html> 
+                
+                          
+                
+               
+               
